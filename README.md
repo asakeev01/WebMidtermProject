@@ -1,9 +1,3 @@
-<img
-src=“C:\Users\aidar\OneDrive\Изображения\Saved Pictures\car.jpg”
-raw=true
-alt=“Subject Pronouns”
-style=“margin-right: 10px;”
-/>
 # WebMidtermProject
 mid term project for web
-
+<img width=“964” alt=“java 8 and prio java 8  array review example” src=“https://github.com/jaimehernan95/arrayReview-java/blob/master/images/%20arrayExample.png 23”>
