@@ -1,0 +1,130 @@
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .navbar {
+        display: none;
+    }
+    .navbar.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, .8);
+        z-index: 10;
+    }
+    .navbar.active > .call {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar.active > .call > .email {
+        border: none;
+    }
+    .navbar.active > .nav_list {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar.active > .nav_list > li > a {
+        color: #fff;
+    }
+    .hamburger {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+        z-index: 11;
+    }
+    .hamburger_line {
+        display: inline-block;
+        width: 80%;
+        height: 6px;
+        background: #2c3740;
+        border-radius: 6px;
+        transition: all .3s;
+    }
+    .hamburger.active > .hamburger_line:nth-child(1) {
+        transform: rotate(45deg) translate(13px, 13px);
+        background: #fff;
+    }
+    .hamburger.active > .hamburger_line:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active > .hamburger_line:nth-child(3) {
+        transform: rotate(-45deg) translate(13px, -13px);
+        background: #fff;
+    }
+    .logo {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .services {
+        flex-wrap: wrap;
+    }
+    .service_item {
+        width: 48%;
+    }
+    .features_block {
+        flex-wrap: wrap;
+    }
+    .features_label {
+        width: 100%;
+    }
+    .features {
+        width: 100%;
+    }
+    .about_block {
+        flex-wrap: wrap;
+    }
+    .aboutUs {
+        width: 100%;
+    }
+    .aboutImages {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+    .footer_item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .service_item {
+        width: 100%;
+    }
+    .service_img {
+        width: 100%;
+    }
+    .features {
+        flex-wrap: wrap;
+    }
+    .features_item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo {
+        width: 60%;
+    }
+}
